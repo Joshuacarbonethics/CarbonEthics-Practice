@@ -76,7 +76,7 @@ export default function Testimonial() {
   const activeDotIndex = currentIndex % testimonials.length;
 
   return (
-    <section className="w-full bg-[#FDFDFD] py-20 overflow-hidden">
+    <section className="w-full bg-[#FDFDFD] pt-20 pb-8 overflow-hidden">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

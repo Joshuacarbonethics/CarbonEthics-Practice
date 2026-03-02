@@ -1,60 +1,63 @@
 ﻿=== PROJECT STRUCTURE ===
-D:\Joshua Projects\carbon-ethics-practice\eslint.config.mjs
-D:\Joshua Projects\carbon-ethics-practice\next-env.d.ts
-D:\Joshua Projects\carbon-ethics-practice\next.config.ts
-D:\Joshua Projects\carbon-ethics-practice\package-lock.json
-D:\Joshua Projects\carbon-ethics-practice\package.json
-D:\Joshua Projects\carbon-ethics-practice\postcss.config.mjs
-D:\Joshua Projects\carbon-ethics-practice\README.md
-D:\Joshua Projects\carbon-ethics-practice\tailwind.config.ts
-D:\Joshua Projects\carbon-ethics-practice\tsconfig.json
-D:\Joshua Projects\carbon-ethics-practice\public\file.svg
-D:\Joshua Projects\carbon-ethics-practice\public\globe.svg
-D:\Joshua Projects\carbon-ethics-practice\public\next.svg
-D:\Joshua Projects\carbon-ethics-practice\public\vercel.svg
-D:\Joshua Projects\carbon-ethics-practice\public\window.svg
-D:\Joshua Projects\carbon-ethics-practice\public\images\global\bcorp-logo.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\global\logo.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Allianz.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\CNN Indonesia.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Danone.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Ey.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Forbes.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Fortune.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Garnier.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Goto.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Liputan 6.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Metro TV.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Natgeologo.svg
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\National geographics.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\nature-bg.jpg
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Nutrifood.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Planet Ban.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Telin.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Tempo.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Transjakarta.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Traveloka.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Tvone.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Unilever.png
-D:\Joshua Projects\carbon-ethics-practice\public\images\landing-page\Y20 indonesia 2022.png
-D:\Joshua Projects\carbon-ethics-practice\src\app\favicon.ico
-D:\Joshua Projects\carbon-ethics-practice\src\app\globals.css
-D:\Joshua Projects\carbon-ethics-practice\src\app\(main)\page.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\app\login\page.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\assets\nature-bg.jpg
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\CollectiveImpact.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\FeaturedIn.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Hero.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Impact.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Navbar.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Partners.tsx
-D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Solutions.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\eslint.config.mjs
+C:\Users\joshu\Desktop\carbon-ethics-practice\next-env.d.ts
+C:\Users\joshu\Desktop\carbon-ethics-practice\next.config.ts
+C:\Users\joshu\Desktop\carbon-ethics-practice\package-lock.json
+C:\Users\joshu\Desktop\carbon-ethics-practice\package.json
+C:\Users\joshu\Desktop\carbon-ethics-practice\postcss.config.mjs
+C:\Users\joshu\Desktop\carbon-ethics-practice\README.md
+C:\Users\joshu\Desktop\carbon-ethics-practice\tailwind.config.ts
+C:\Users\joshu\Desktop\carbon-ethics-practice\tsconfig.json
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\file.svg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\globe.svg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\next.svg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\vercel.svg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\window.svg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\global\bcorp-logo.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\global\logo.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Allianz.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\CNN Indonesia.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Danone.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Ey.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Forbes.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Fortune.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Garnier.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Goto.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Liputan 6.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Metro TV.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Natgeologo.svg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\National geographics.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\nature-bg.jpg
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Nutrifood.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Planet Ban.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Telin.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Tempo.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Transjakarta.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Traveloka.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Tvone.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Unilever.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\public\images\landing-page\Y20 indonesia 2022.png
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\favicon.ico
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\globals.css
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\(main)\page.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\login\page.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\assets\nature-bg.jpg
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\AwardsRecognition.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\CollectiveImpact.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\FeaturedIn.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Hero.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Impact.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Navbar.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Partners.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\RealImpact.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Solutions.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Testimonial.tsx
 
 
 ================================================
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\app\(main)\page.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\(main)\page.tsx ===
 import Navbar from "../../features/landing-page/components/Navbar";
 import Hero from "../../features/landing-page/components/Hero";
 import Solutions from "../../features/landing-page/components/Solutions";
@@ -63,6 +66,9 @@ import About from "../../features/landing-page/components/About";
 import CollectiveImpact from "../../features/landing-page/components/CollectiveImpact";
 import Partners from "../../features/landing-page/components/Partners";
 import FeaturedIn from "../../features/landing-page/components/FeaturedIn";
+import RealImpact from "../../features/landing-page/components/RealImpact";
+import Testimonial from "../../features/landing-page/components/Testimonial";
+import AwardsRecognition from "../../features/landing-page/components/AwardsRecognition";
 
 export default function Home() {
   return (
@@ -75,13 +81,16 @@ export default function Home() {
       <CollectiveImpact />
       <Partners />
       <FeaturedIn />
+      <RealImpact />
+      <Testimonial />
+      <AwardsRecognition />
     </main>
   );
 }
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\app\login\page.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\login\page.tsx ===
 
 export default function Login() {
   return (
@@ -95,7 +104,7 @@ export default function Login() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\app\globals.css ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\app\globals.css ===
 @import "tailwindcss";
 
 @theme {
@@ -121,7 +130,109 @@ body {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\CollectiveImpact.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\AwardsRecognition.tsx ===
+"use client";
+
+import { motion, Variants } from "framer-motion";
+
+const awardsData = [
+  {
+    id: 1,
+    title: "B20 Sustainability 4.0 Award 2022 Finalist",
+    image: "/images/landing-page/awards/b20.png",
+  },
+  {
+    id: 2,
+    title: "JICA Accelerator Program 2022 Finalist",
+    image: "/images/landing-page/awards/jica.png",
+  },
+  {
+    id: 3,
+    title: "Blue Water Heroes Award 2023 Finalist",
+    image: "/images/landing-page/awards/blue-water.png",
+  },
+  {
+    id: 4,
+    title: "One Young World Global Ambassador",
+    image: "/images/landing-page/awards/one-young-world.png",
+  },
+  {
+    id: 5,
+    title: "ISRA 2024 Initiatives of The Year",
+    image: "/images/landing-page/awards/isra.png",
+  },
+  {
+    id: 6,
+    title: "Startup World Cup Regional Indonesia 2023 Finalist",
+    image: "/images/landing-page/awards/startup-world-cup.png",
+  },
+  {
+    id: 7,
+    title: "Rising Changemaker Award 2025",
+    image: "/images/landing-page/awards/rising-changemaker.png",
+  },
+];
+
+export default function AwardsRecognition() {
+  const containerVariants: Variants = {
+    hidden: { opacity: 0 },
+    visible: { opacity: 1, transition: { staggerChildren: 0.15 } }
+  };
+
+  const itemVariants: Variants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } }
+  };
+
+  return (
+    <section className="w-full bg-[#FDFDFD] py-16 overflow-hidden">
+      <motion.div
+        className="w-full flex flex-col items-center" // max-w-[1400px] dihapus biar bisa mentok layar
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, margin: "-100px" }}
+        variants={containerVariants}
+      >
+        <motion.h2 
+          variants={itemVariants}
+          className="text-[32px] text-center font-normal text-[#403B3C] mb-12"
+        >
+          Awards and Recognition
+        </motion.h2>
+
+        {/* Kontainer Flex Justify Between (Stretching dari ujung kiri ke kanan) */}
+        <motion.div 
+          variants={itemVariants} 
+          className="w-full flex justify-between items-start px-2 md:px-6 gap-2"
+        >
+          {awardsData.map((award) => (
+            <div
+              key={award.id}
+              className="flex flex-col items-center justify-start flex-1 px-1 gap-3 md:gap-5"
+            >
+              <div className="h-[30px] sm:h-[40px] md:h-[60px] w-full flex items-center justify-center">
+                <img
+                  src={award.image}
+                  alt={award.title}
+                  className="max-w-full max-h-full object-contain mx-auto transition-transform duration-300 hover:scale-105"
+                  onError={(e) => { (e.target as HTMLImageElement).src = `https://placehold.co/150x60/e2e8f0/64748b?text=Award` }}
+                />
+              </div>
+              
+              <p className="text-[7px] sm:text-[9px] md:text-[12px] text-center font-medium text-[#0A3E6D]/90 leading-tight md:leading-snug">
+                {award.title}
+              </p>
+            </div>
+          ))}
+        </motion.div>
+      </motion.div>
+    </section>
+  );
+}
+
+
+
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\CollectiveImpact.tsx ===
   "use client";
 
   import { motion, Variants } from "framer-motion";
@@ -263,7 +374,7 @@ body {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\FeaturedIn.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\FeaturedIn.tsx ===
 "use client";
 
 import { motion, Variants } from "framer-motion";
@@ -348,7 +459,7 @@ export default function FeaturedIn() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Hero.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Hero.tsx ===
 "use client";
 
 import { motion } from "framer-motion";
@@ -460,7 +571,7 @@ export default function Hero() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Impact.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Impact.tsx ===
 "use client";
 
 import { useState, useEffect } from "react";
@@ -607,7 +718,7 @@ export default function Impact() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Navbar.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Navbar.tsx ===
 "use client";
 
 import Link from "next/link";
@@ -839,7 +950,7 @@ export default function Navbar() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Partners.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Partners.tsx ===
 "use client";
 
 import { motion, Variants } from "framer-motion";
@@ -971,7 +1082,195 @@ export default function Partners() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\src\features\landing-page\components\Solutions.tsx ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\RealImpact.tsx ===
+"use client";
+
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
+const impactData = [
+  {
+    id: "pulang-pisau",
+    label: "Pulang Pisau",
+    image: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=1200", 
+    tags: ["Carbon Project", "Peatland"],
+    title: "Pulang Pisau PRESERVE - Peatland Restoration and Fire Prevention",
+  },
+  {
+    id: "tanjungpakis",
+    label: "Tanjungpakis",
+    image: "https://images.unsplash.com/photo-1501854140801-50d01698950b?q=80&w=1200", 
+    tags: ["Mangrove", "Community"],
+    title: "Tanjungpakis Mangrove Restoration Initiative",
+  },
+  {
+    id: "bintan",
+    label: "Bintan",
+    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200",
+    tags: ["Blue Carbon", "Conservation"],
+    title: "Bintan Blue Carbon Conservation Project",
+  },
+  {
+    id: "bali",
+    label: "Bali",
+    image: "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=1200",
+    tags: ["Coral Reef", "Marine"],
+    title: "Bali Coral Reef Restoration and Marine Protection",
+  },
+  {
+    id: "kepulauan-seribu",
+    label: "Kepulauan Seribu",
+    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200",
+    tags: ["Mangrove", "Biodiversity"],
+    title: "Kepulauan Seribu Biodiversity Protection",
+  },
+];
+
+export default function RealImpact() {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  // Auto-scroll logic (5 seconds per item)
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setActiveIndex((current) => (current + 1) % impactData.length);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, [activeIndex]);
+
+  const activeContent = impactData[activeIndex];
+
+  return (
+    <section className="relative w-full py-24 px-16 overflow-hidden min-h-[900px] flex items-center">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2000" 
+          alt="Forest background" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/20" /> 
+      </div>
+
+      {/* Glassmorphism Container */}
+      <motion.div 
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+        className="relative z-10 w-full max-w-[1400px] mx-auto bg-white/20 backdrop-blur-2xl border border-white/30 rounded-[32px] p-12 lg:p-16 shadow-2xl"
+      >
+        <div className="flex flex-col md:flex-row justify-between items-start mb-12 gap-8">
+          <h2 className="text-[#FDFDFD] text-[48px] font-normal leading-tight tracking-tight drop-shadow-md">
+            Real Impact <br /> in Action
+          </h2>
+          <p className="text-[#FDFDFD] text-[14px] max-w-[400px] text-left md:text-right leading-relaxed drop-shadow-md">
+            Discover our nature-based projects, from mangrove and peatland restoration to blue carbon initiatives, built on measurable impact and local community empowerment
+          </p>
+        </div>
+
+        {/* Inner White Content Card */}
+        <div className="bg-[#FDFDFD] rounded-[24px] p-8 lg:p-10 flex flex-col md:flex-row gap-12 shadow-lg">
+          
+          {/* Sidebar Menu */}
+          <div className="w-full md:w-[25%] flex flex-col gap-2 border-l-[1.5px] border-gray-200/80 relative my-2">
+            {impactData.map((item, index) => {
+              const isActive = activeIndex === index;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => setActiveIndex(index)}
+                  className={`text-left py-4 pl-8 text-[15px] relative transition-colors duration-300 ${
+                    isActive 
+                      ? "text-[#0A3E6D] font-medium" 
+                      : "text-gray-400 hover:text-gray-600 font-normal"
+                  }`}
+                >
+                  {/* Seamless layoutId container + Hourglass draining effect */}
+                  {isActive && (
+                    <motion.div 
+                      layoutId="activeTabIndicator"
+                      className="absolute left-[-1.5px] top-0 bottom-0 w-[3px] bg-[#0A3E6D]/20 rounded-full overflow-hidden"
+                      transition={{ type: "spring", stiffness: 300, damping: 30 }}
+                    >
+                      <motion.div 
+                        key={`progress-${activeIndex}`}
+                        className="absolute left-0 bottom-0 w-full bg-[#0A3E6D] rounded-full" 
+                        initial={{ height: "100%" }}
+                        animate={{ height: "0%" }}
+                        transition={{ duration: 5, ease: "linear" }}
+                      />
+                    </motion.div>
+                  )}
+                  {item.label}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Dynamic Content Area */}
+          <div className="w-full md:w-[75%] overflow-hidden">
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeIndex}
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                transition={{ duration: 0.4, ease: "easeInOut" }}
+                className="flex flex-col w-full"
+              >
+                <div className="w-full h-[320px] rounded-[16px] overflow-hidden mb-6 shadow-sm">
+                  <img 
+                    src={activeContent.image} 
+                    alt={activeContent.title} 
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                  />
+                </div>
+
+                <div className="flex gap-3 mb-4">
+                  {activeContent.tags.map((tag, idx) => (
+                    <span 
+                      key={idx} 
+                      className="border border-gray-300 rounded-md px-3 py-1 text-[11px] text-[#403B3C] uppercase tracking-wider"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+
+                <h3 className="text-[28px] text-[#403B3C] font-normal leading-tight mb-8">
+                  {activeContent.title}
+                </h3>
+
+                {/* Using the standard button formatting */}
+                <motion.button 
+                  whileTap={{ scale: 0.95 }}
+                  className="group relative flex w-max items-center gap-4 overflow-hidden rounded-full bg-[#0A3E6D] group-hover:bg-[#0A3E6D] pl-6 pr-2 py-2 text-sm font-bold text-[#FDFDFD] transition-colors duration-500 ease-out border-none outline-none ring-0 transform-gpu"
+                >
+                  <span className="relative z-10 transition-colors duration-300 group-hover:text-[#FDFDFD]">
+                    Learn More
+                  </span>
+                  <div className="relative z-10 flex h-8 w-8 items-center justify-center rounded-full bg-[#FDFDFD] text-[#0A3E6D] transition-all duration-300 group-hover:bg-[#FDFDFD] group-hover:text-[#0A3E6D] shadow-sm">
+                    <span className="text-sm leading-none transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
+                      âž”
+                    </span>
+                  </div>
+                  <div className="absolute right-2 top-1/2 h-8 w-8 -translate-y-1/2 rounded-full bg-[#0A3E6D] transition-all duration-700 ease-out group-hover:scale-[15]"></div>
+                </motion.button>
+
+              </motion.div>
+            </AnimatePresence>
+          </div>
+          
+        </div>
+      </motion.div>
+    </section>
+  );
+}
+
+
+
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Solutions.tsx ===
 "use client";
 
 import { motion, Variants } from "framer-motion";
@@ -1071,7 +1370,194 @@ export default function Solutions() {
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\eslint.config.mjs ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Testimonial.tsx ===
+"use client";
+
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+
+const testimonials = [
+  {
+    id: 1,
+    quote: "CarbonEthics has helped us fulfill our commitment to ESG through the Telin for Community program, where, together with CarbonEthics, we have planted 15,000 mangrove trees in Tanjung Pakis. Not only have we planted them, but we have also ensured their care and survival to maximize their contribution to coastal communities.",
+    name: "Budi Satria Dharma Purba",
+    title: "Chief Executive Officer at Telin",
+    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800", 
+    logo: "/images/landing-page/Telin.png",
+  },
+  {
+    id: 2,
+    quote: "Through our partnership with CarbonEthics, we've successfully integrated blue carbon initiatives into our core sustainability targets. The transparency and real impact generated for local communities is truly commendable.",
+    name: "Jane Doe",
+    title: "Sustainability Director at Danone",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800",
+    logo: "/images/landing-page/Danone.png",
+  },
+  {
+    id: 3,
+    quote: "Working with CarbonEthics allowed us to reach our net-zero goals faster while empowering coastal farmers. Their holistic approach to environmental and social impact makes them an ideal partner.",
+    name: "John Smith",
+    title: "Head of CSR at Traveloka",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800",
+    logo: "/images/landing-page/Traveloka.png",
+  }
+];
+
+// Trik Loop: Kita gandakan array jadi 3x lipat biar bisa geser ke kiri/kanan tanpa putus
+const extendedTestimonials = [...testimonials, ...testimonials, ...testimonials];
+
+export default function Testimonial() {
+  // Kita mulai dari index array tengah supaya ada kartu ngintip di kiri
+  const [currentIndex, setCurrentIndex] = useState(testimonials.length); 
+  const [isTransitioning, setIsTransitioning] = useState(true);
+  const [isClickable, setIsClickable] = useState(true); // TAMBAHAN: State untuk lock tombol
+
+  const nextSlide = () => {
+    if (!isClickable) return; // Batalkan klik kalau lagi jalan
+    setIsClickable(false); // Kunci tombol
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => prev + 1);
+  };
+
+  const prevSlide = () => {
+    if (!isClickable) return; // Batalkan klik kalau lagi jalan
+    setIsClickable(false); // Kunci tombol
+    setIsTransitioning(true);
+    setCurrentIndex((prev) => prev - 1);
+  };
+
+  const handleAnimationComplete = () => {
+    if (currentIndex < testimonials.length) {
+      setIsTransitioning(false);
+      setCurrentIndex(currentIndex + testimonials.length);
+    } else if (currentIndex >= testimonials.length * 2) {
+      setIsTransitioning(false);
+      setCurrentIndex(currentIndex - testimonials.length);
+    }
+    setIsClickable(true); // Buka kunci tombol pas animasi selesai
+  };
+
+  // Nyalakan kembali animasi setelah "silent jump" selesai
+  useEffect(() => {
+    if (!isTransitioning) {
+      const timeout = setTimeout(() => setIsTransitioning(true), 50);
+      return () => clearTimeout(timeout);
+    }
+  }, [isTransitioning]);
+
+  // Untuk navigasi titik (dots), kita hitung index aslinya
+  const activeDotIndex = currentIndex % testimonials.length;
+
+  return (
+    <section className="w-full bg-[#FDFDFD] py-20 overflow-hidden">
+      <motion.h2 
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="text-center text-[40px] text-[#403B3C] font-normal mb-12"
+      >
+        Testimonial
+      </motion.h2>
+
+      {/* Wrapper untuk area carousel */}
+      <div className="w-full flex justify-center">
+        <div className="w-[90vw] max-w-[1000px] relative">
+          
+          {/* Slider Track (w-full penting di sini agar 100% mengikuti lebar wrapper) */}
+          <motion.div 
+            className="flex gap-6 w-full"
+            animate={{ x: `calc(-${currentIndex * 100}% - ${currentIndex * 1.5}rem)` }}
+            transition={{ 
+              type: "tween", 
+              ease: [0.25, 1, 0.5, 1], // Custom easing biar mulus banget berhentinya
+              duration: isTransitioning ? 0.6 : 0
+            }}
+            onAnimationComplete={handleAnimationComplete}
+          >
+            {extendedTestimonials.map((item, index) => (
+              <div 
+                key={`${item.id}-${index}`} 
+                // 1. Ubah items-center menjadi items-stretch di sini:
+                className="w-full shrink-0 bg-[#0A3E6D] rounded-[24px] md:rounded-[32px] p-6 md:p-10 flex flex-col md:flex-row gap-8 items-stretch shadow-lg"
+              >
+                {/* Left Side: Photo + Logo */}
+                <div className="relative w-full md:w-[320px] h-[320px] shrink-0 rounded-2xl overflow-hidden bg-white/10">
+                  <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                  <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-2 rounded-lg shadow-sm">
+                    <img 
+                      src={item.logo} 
+                      alt="Company Logo" 
+                      className="h-6 object-contain"
+                      onError={(e) => { (e.target as HTMLImageElement).src = `https://placehold.co/100x40/e2e8f0/64748b?text=Logo` }}
+                    />
+                  </div>
+                </div>
+
+                {/* Right Side: Text Area */}
+                {/* 2. Tambahkan py-2 opsional untuk ngerapihin jarak atas-bawah */}
+                <div className="flex flex-col text-[#FDFDFD] flex-1 py-2">
+                  <p className="text-[15px] md:text-[17px] leading-relaxed mb-8">
+                    "{item.quote}"
+                  </p>
+                  
+                  {/* 3. Tambahkan mt-auto di div ini biar selalu nempel di bawah */}
+                  <div className="mt-auto">
+                    <h4 className="text-[20px] font-normal">{item.name}</h4>
+                    <p className="text-[13px] text-[#FDFDFD]/70 mt-1.5">{item.title}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </div>
+
+      <div className="flex justify-center items-center gap-6 mt-12">
+        <button 
+          onClick={prevSlide}
+          className="w-10 h-10 rounded-full border-[1.5px] border-[#0A3E6D] text-[#0A3E6D] flex items-center justify-center transition-colors hover:bg-[#0A3E6D] hover:text-[#FDFDFD]"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+          </svg>
+        </button>
+
+        <div className="flex items-center gap-2.5">
+          {testimonials.map((_, idx) => (
+            <button 
+              key={idx} 
+              onClick={() => {
+                if (!isClickable || activeDotIndex === idx) return; // Cegah spam klik
+                setIsClickable(false);
+                setIsTransitioning(true);
+                setCurrentIndex(testimonials.length + idx);
+              }}
+              className={`rounded-full transition-all duration-300 ease-out ${
+                activeDotIndex === idx 
+                  ? "w-8 h-2 bg-[#0A3E6D]" 
+                  : "w-2 h-2 bg-[#DDDEE0] hover:bg-[#0A3E6D]/50"
+              }`}
+            />
+          ))}
+        </div>
+
+        <button 
+          onClick={nextSlide}
+          className="w-10 h-10 rounded-full border-[1.5px] border-[#0A3E6D] text-[#0A3E6D] flex items-center justify-center transition-colors hover:bg-[#0A3E6D] hover:text-[#FDFDFD]"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+        </button>
+      </div>
+    </section>
+  );
+}
+
+
+
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\eslint.config.mjs ===
 import { defineConfig, globalIgnores } from "eslint/config";
 import nextVitals from "eslint-config-next/core-web-vitals";
 import nextTs from "eslint-config-next/typescript";
@@ -1094,7 +1580,7 @@ export default eslintConfig;
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\next-env.d.ts ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\next-env.d.ts ===
 /// <reference types="next" />
 /// <reference types="next/image-types/global" />
 import "./.next/dev/types/routes.d.ts";
@@ -1105,7 +1591,7 @@ import "./.next/dev/types/routes.d.ts";
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\next.config.ts ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\next.config.ts ===
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -1118,7 +1604,7 @@ export default nextConfig;
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\package.json ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\package.json ===
 {
   "name": "carbon-ethics-practice",
   "version": "0.1.0",
@@ -1153,7 +1639,7 @@ export default nextConfig;
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\postcss.config.mjs ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\postcss.config.mjs ===
 const config = {
   plugins: {
     "@tailwindcss/postcss": {},
@@ -1164,7 +1650,7 @@ export default config;
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\README.md ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\README.md ===
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -1205,7 +1691,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\tailwind.config.ts ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\tailwind.config.ts ===
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -1237,7 +1723,7 @@ export default config;
 
 
 
-=== FILE: D:\Joshua Projects\carbon-ethics-practice\tsconfig.json ===
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\tsconfig.json ===
 {
   "compilerOptions": {
     "lib": [

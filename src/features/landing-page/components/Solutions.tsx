@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { motion, Variants } from "framer-motion";
 
 const solutions = [
@@ -21,6 +22,8 @@ const solutions = [
 ];
 
 export default function Solutions() {
+  const [activeTab, setActiveTab] = useState("solutions");
+
   const sectionVariants: Variants = {
     hidden: { opacity: 0, y: 100 },
     visible: {
@@ -49,10 +52,58 @@ export default function Solutions() {
     >
       <motion.h2 
         variants={itemVariants}
-        className="text-[56px] font-normal text-[#403B3C] mb-4 px-4"
+        className="text-[44px] md:text-[56px] font-normal text-[#403B3C] mb-8 px-4"
       >
         Our Solutions to Achieve Your <span className="text-[#0A3E6D] font-semibold">Decarbonization</span> Goals
       </motion.h2>
+
+      {/* Tab Slider / Toggle */}
+      <motion.div 
+        variants={itemVariants}
+        className="flex items-center bg-[#F4F5F7] p-1.5 rounded-full mb-12 border border-gray-200/50 shadow-inner"
+      >
+        <button 
+          onClick={() => setActiveTab("solutions")}
+          className={`relative flex items-center gap-2 px-6 py-2.5 rounded-full text-[14px] font-medium transition-colors duration-300 ${
+            activeTab === "solutions" ? "text-[#0A3E6D]" : "text-[#403B3C]/50 hover:text-[#403B3C]/80"
+          }`}
+        >
+          {activeTab === "solutions" && (
+            <motion.div 
+              layoutId="activeTabBackground" 
+              className="absolute inset-0 bg-[#FDFDFD] rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.06)]"
+              transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21" />
+            </svg>
+            Our Solutions
+          </span>
+        </button>
+        
+        <button 
+          onClick={() => setActiveTab("planting")}
+          className={`relative flex items-center gap-2 px-6 py-2.5 rounded-full text-[14px] font-medium transition-colors duration-300 ${
+            activeTab === "planting" ? "text-[#0A3E6D]" : "text-[#403B3C]/50 hover:text-[#403B3C]/80"
+          }`}
+        >
+          {activeTab === "planting" && (
+            <motion.div 
+              layoutId="activeTabBackground" 
+              className="absolute inset-0 bg-[#FDFDFD] rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.06)]"
+              transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+            </svg>
+            Planting Package
+          </span>
+        </button>
+      </motion.div>
 
       <div className="w-full px-16 flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-[1200px]">
@@ -70,6 +121,7 @@ export default function Solutions() {
                 src={item.image} 
                 alt={item.title} 
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                onError={(e) => { (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800` }}
               />
               
               <div className="absolute inset-0 backdrop-blur-xl [mask-image:linear-gradient(to_bottom,black_35%,transparent_55%)] transition-all duration-500 group-hover:backdrop-blur-2xl" />
