@@ -52,6 +52,7 @@ C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\componen
 C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\RealImpact.tsx
 C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Solutions.tsx
 C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Testimonial.tsx
+C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\WatchOurStories.tsx
 
 
 ================================================
@@ -64,6 +65,7 @@ import Solutions from "../../features/landing-page/components/Solutions";
 import Impact from "../../features/landing-page/components/Impact";
 import About from "../../features/landing-page/components/About";
 import CollectiveImpact from "../../features/landing-page/components/CollectiveImpact";
+import WatchOurStories from "../../features/landing-page/components/WatchOurStories";
 import Partners from "../../features/landing-page/components/Partners";
 import FeaturedIn from "../../features/landing-page/components/FeaturedIn";
 import RealImpact from "../../features/landing-page/components/RealImpact";
@@ -76,8 +78,15 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Solutions />
+      
+      {/* Catatan: Untuk 'Action' dan 'Impact', 
+         saat ini kita menggunakan komponen Impact.tsx 
+         yang berisi transformasi aksi iklim. 
+      */}
       <Impact />
+      
       <About />
+      <WatchOurStories />
       <CollectiveImpact />
       <Partners />
       <FeaturedIn />
@@ -1273,6 +1282,7 @@ export default function RealImpact() {
 === FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\Solutions.tsx ===
 "use client";
 
+import { useState } from "react";
 import { motion, Variants } from "framer-motion";
 
 const solutions = [
@@ -1294,6 +1304,8 @@ const solutions = [
 ];
 
 export default function Solutions() {
+  const [activeTab, setActiveTab] = useState("solutions");
+
   const sectionVariants: Variants = {
     hidden: { opacity: 0, y: 100 },
     visible: {
@@ -1322,10 +1334,58 @@ export default function Solutions() {
     >
       <motion.h2 
         variants={itemVariants}
-        className="text-[56px] font-normal text-[#403B3C] mb-4 px-4"
+        className="text-[44px] md:text-[56px] font-normal text-[#403B3C] mb-8 px-4"
       >
         Our Solutions to Achieve Your <span className="text-[#0A3E6D] font-semibold">Decarbonization</span> Goals
       </motion.h2>
+
+      {/* Tab Slider / Toggle */}
+      <motion.div 
+        variants={itemVariants}
+        className="flex items-center bg-[#F4F5F7] p-1.5 rounded-full mb-12 border border-gray-200/50 shadow-inner"
+      >
+        <button 
+          onClick={() => setActiveTab("solutions")}
+          className={`relative flex items-center gap-2 px-6 py-2.5 rounded-full text-[14px] font-medium transition-colors duration-300 ${
+            activeTab === "solutions" ? "text-[#0A3E6D]" : "text-[#403B3C]/50 hover:text-[#403B3C]/80"
+          }`}
+        >
+          {activeTab === "solutions" && (
+            <motion.div 
+              layoutId="activeTabBackground" 
+              className="absolute inset-0 bg-[#FDFDFD] rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.06)]"
+              transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21" />
+            </svg>
+            Our Solutions
+          </span>
+        </button>
+        
+        <button 
+          onClick={() => setActiveTab("planting")}
+          className={`relative flex items-center gap-2 px-6 py-2.5 rounded-full text-[14px] font-medium transition-colors duration-300 ${
+            activeTab === "planting" ? "text-[#0A3E6D]" : "text-[#403B3C]/50 hover:text-[#403B3C]/80"
+          }`}
+        >
+          {activeTab === "planting" && (
+            <motion.div 
+              layoutId="activeTabBackground" 
+              className="absolute inset-0 bg-[#FDFDFD] rounded-full shadow-[0_2px_10px_rgba(0,0,0,0.06)]"
+              transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+            />
+          )}
+          <span className="relative z-10 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-4 h-4">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z" />
+            </svg>
+            Planting Package
+          </span>
+        </button>
+      </motion.div>
 
       <div className="w-full px-16 flex justify-center">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-[1200px]">
@@ -1343,6 +1403,7 @@ export default function Solutions() {
                 src={item.image} 
                 alt={item.title} 
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                onError={(e) => { (e.target as HTMLImageElement).src = `https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800` }}
               />
               
               <div className="absolute inset-0 backdrop-blur-xl [mask-image:linear-gradient(to_bottom,black_35%,transparent_55%)] transition-all duration-500 group-hover:backdrop-blur-2xl" />
@@ -1449,7 +1510,7 @@ export default function Testimonial() {
   const activeDotIndex = currentIndex % testimonials.length;
 
   return (
-    <section className="w-full bg-[#FDFDFD] py-20 overflow-hidden">
+    <section className="w-full bg-[#FDFDFD] pt-20 pb-8 overflow-hidden">
       <motion.h2 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -1550,6 +1611,177 @@ export default function Testimonial() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
           </svg>
         </button>
+      </div>
+    </section>
+  );
+}
+
+
+
+=== FILE: C:\Users\joshu\Desktop\carbon-ethics-practice\src\features\landing-page\components\WatchOurStories.tsx ===
+"use client";
+
+import { useState } from "react";
+import { motion, AnimatePresence, Variants } from "framer-motion";
+
+const storiesData = [
+  {
+    id: 1,
+    title: "Who We Are",
+    description: "Discover our mission to restore the balance between people and the planet",
+    embedId: "XxjcyRT-1LE",
+  },
+  {
+    id: 2,
+    title: "Pulang Pisau",
+    description: "Seeing our field impact and community empowerment in Pulang Pisau",
+    embedId: "XxjcyRT-1LE",
+  },
+  {
+    id: 3,
+    title: "Tanjungpakis Mangrove",
+    description: "A closer look at our mangrove restoration efforts and blue carbon potential",
+    embedId: "XxjcyRT-1LE",
+  },
+];
+
+export default function WatchOurStories() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState(0);
+
+  const slideVariants: Variants = {
+    enter: (direction: number) => ({
+      x: direction > 0 ? 1100 : -1100,
+      opacity: 0,
+      scale: 0.98,
+    }),
+    center: {
+      zIndex: 1,
+      x: 0,
+      opacity: 1,
+      scale: 1,
+      transition: {
+        x: { type: "spring", stiffness: 300, damping: 32 },
+        opacity: { duration: 0.5 },
+        scale: { duration: 0.5 }
+      },
+    },
+    exit: (direction: number) => ({
+      zIndex: 0,
+      x: direction < 0 ? 1100 : -1100,
+      opacity: 0,
+      scale: 0.98,
+      transition: {
+        x: { type: "spring", stiffness: 300, damping: 32 },
+        opacity: { duration: 0.4 },
+      },
+    }),
+  };
+
+  const paginate = (newDirection: number) => {
+    const nextIndex = currentIndex + newDirection;
+    if (nextIndex >= 0 && nextIndex < storiesData.length) {
+      setDirection(newDirection);
+      setCurrentIndex(nextIndex);
+    }
+  };
+
+  return (
+    <section className="w-full bg-[#FDFDFD] py-16 overflow-hidden">
+      {/* Container Utama diperlebar sedikit ke 1450px */}
+      <div className="max-w-[1450px] mx-auto px-6 md:px-10">
+        
+        {/* Header */}
+        <div className="flex justify-between items-center mb-10">
+          <motion.h2 
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            className="text-[28px] md:text-[36px] font-normal text-[#403B3C]"
+          >
+            Watch Our Stories
+          </motion.h2>
+
+          <div className="flex gap-4">
+            <motion.button 
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => paginate(-1)}
+              disabled={currentIndex === 0}
+              className={`w-12 h-12 rounded-full border flex items-center justify-center transition-all ${
+                currentIndex === 0 
+                  ? "border-gray-100 text-gray-200 cursor-not-allowed" 
+                  : "border-gray-200 text-[#403B3C] hover:bg-[#0A3E6D] hover:text-[#FDFDFD] shadow-sm bg-white"
+              }`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </motion.button>
+            
+            <motion.button 
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              onClick={() => paginate(1)}
+              disabled={currentIndex === storiesData.length - 1}
+              className={`w-12 h-12 rounded-full border flex items-center justify-center transition-all ${
+                currentIndex === storiesData.length - 1 
+                  ? "border-gray-100 text-gray-200 cursor-not-allowed" 
+                  : "border-gray-200 text-[#403B3C] hover:bg-[#0A3E6D] hover:text-[#FDFDFD] shadow-sm bg-white"
+              }`}
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </motion.button>
+          </div>
+        </div>
+
+        {/* Slider Area */}
+        <div className="relative h-[580px] w-full flex items-start justify-center">
+          <AnimatePresence initial={false} custom={direction} mode="wait">
+            <motion.div
+              key={currentIndex}
+              custom={direction}
+              variants={slideVariants}
+              initial="enter"
+              animate="center"
+              exit="exit"
+              className="absolute w-full flex flex-col items-start"
+            >
+              {/* Video Box: w-full mengikuti max-w-1450px */}
+              <div className="relative w-full max-h-[480px] aspect-video rounded-[32px] overflow-hidden bg-black shadow-[0_25px_50px_-12px_rgba(0,0,0,0.25)] border border-gray-100/50">
+                <iframe
+                  className="absolute inset-0 w-full h-full"
+                  src={`https://www.youtube.com/embed/${storiesData[currentIndex].embedId}?rel=0&modestbranding=1`}
+                  title={storiesData[currentIndex].title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
+
+              {/* Text Area */}
+              <div className="mt-8 text-left w-full px-2"> 
+                <motion.h3 
+                  initial={{ opacity: 0, x: -15 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.2 }}
+                  className="text-[24px] md:text-[30px] font-medium text-[#0A3E6D] mb-2 tracking-tight"
+                >
+                  {storiesData[currentIndex].title}
+                </motion.h3>
+                <motion.p 
+                  initial={{ opacity: 0, x: -15 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.3 }}
+                  className="text-[15px] md:text-[17px] text-[#403B3C]/70 leading-relaxed font-light max-w-[750px]"
+                >
+                  {storiesData[currentIndex].description}
+                </motion.p>
+              </div>
+            </motion.div>
+          </AnimatePresence>
+        </div>
       </div>
     </section>
   );

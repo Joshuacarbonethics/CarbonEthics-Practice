@@ -10,6 +10,9 @@ import FeaturedIn from "../../features/landing-page/components/FeaturedIn";
 import RealImpact from "../../features/landing-page/components/RealImpact";
 import Testimonial from "../../features/landing-page/components/Testimonial";
 import AwardsRecognition from "../../features/landing-page/components/AwardsRecognition";
+import LatestFeatures from "../../features/landing-page/components/LatestFeatures";
+import ContactForm from "../../features/landing-page/components/ContactForm"; // <--- IMPORT BARU
+import Footer from "../../features/landing-page/components/Footer"; // <--- IMPORT BARU
 
 export default function Home() {
   return (
@@ -17,13 +20,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Solutions />
-      
-      {/* Catatan: Untuk 'Action' dan 'Impact', 
-         saat ini kita menggunakan komponen Impact.tsx 
-         yang berisi transformasi aksi iklim. 
-      */}
       <Impact />
-      
       <About />
       <WatchOurStories />
       <CollectiveImpact />
@@ -32,6 +29,9 @@ export default function Home() {
       <RealImpact />
       <Testimonial />
       <AwardsRecognition />
+      <LatestFeatures />
+      <ContactForm />  {/* <--- POSISI DI SINI */}
+      <Footer />       {/* <--- PENUTUP PAGE */}
     </main>
   );
 }
